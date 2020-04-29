@@ -1,0 +1,16 @@
+PODS:
+  - ZTComponents (1.0.0)
+
+DEPENDENCIES:
+  - ZTComponents (from `../`)
+
+EXTERNAL SOURCES:
+  ZTComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTComponents: 088d9491dc7768b9db7b84ffa330ce80173eec89
+
+PODFILE CHECKSUM: fca1a4e558caa8cf9cbfd1162477681bd4dc66db
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module ZTComponents {
+  umbrella header "ZTComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}
