@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06061FEB104BDA2C748C77941134CC7D /* UITextField+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8469869E234C91647DA94A57B2F27313 /* UITextField+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15EFF99829CACA4E6ED7300D09903565 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A3ECBE548D1450B91A254BC60CD9E9 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B62321BC7EC7E620B60B6B07E8739DE /* UITextField+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A703932E4706393BF59A0AF8B7F9DC2 /* UITextField+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9E0099465782696E42BD925307CA8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		21F33EF27F209ED026D3B2FFE93A2BB9 /* UIImage+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 3244140907AF85557ED56A1B324373FC /* UIImage+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EFCC22BCA6DBA5D3B4C1165E8AF0E65 /* Pods-ZTComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A532418C12570340DF5A3588954DF3EE /* Pods-ZTComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CD0E3A5C76360CBD4368B6BA35F3381 /* ZTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 293C8296D1952673648C60839357E355 /* ZTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E81567B716A0814A8A43FE6288F50D6 /* UILabel+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 4963017365D24A62BFF80DAA2A4DA19C /* UILabel+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6388F705D89B7F4C70A5F8F9AEF80123 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2814B86B77D21B0419A88793D5E5A /* UILabel+Category.m */; };
-		67129B6B85F0A9286967549AB340E9F0 /* ZTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 062291DCD69FC6F10B7C6355DC73513E /* ZTComponents-dummy.m */; };
+		2FF11D200CC50ABFAE49A17E31562E86 /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4537445E020CF7419139D72B3DDD9F7 /* UITextField+Category.m */; };
+		35CE6AAA1D25D17A8F255BB9C7AC5F33 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4082B7A31F202888B50111E8C295E845 /* UILabel+Category.m */; };
+		4860790B80069DA7FDC61B313047427F /* ZTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = FB354C7A97888D2E90EF0EFA782034CD /* ZTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551EC4D6A074F719CD6EF952422CC409 /* ZTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BC89A11D5FAE76984BF41FB68AB046 /* ZTComponents-dummy.m */; };
 		6B28FB473575F7C21A774134E3A7AF4E /* Pods-ZTComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B53040AB62772CFFF8D98C804B662 /* Pods-ZTComponents_Example-dummy.m */; };
+		734C00A5570E0010672AF5DDAEB7D193 /* ZTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D94D5AA00C2A10648D7CA713E00FA2D /* ZTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D6B5E8548EDD8FE7E0DBA6364358A9C /* Pods-ZTComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA066DE34BC0E5E21D9684F93ED052F1 /* Pods-ZTComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84669E0ECE8A169E7A58AA11139860CD /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF136376F7245F1C3CDD115E3C0D4F8 /* UIButton+Category.m */; };
 		8812C59D55348AF662F3F337F4279CCA /* Pods-ZTComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 471FD61AC2E4E1C15DC71E3C2A4D4209 /* Pods-ZTComponents_Tests-dummy.m */; };
-		88E0C6DAF7AEDD4E439BB2EE280F41EE /* UIButton+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = AC483BDBC32CAE3F5E1FB824419CCAD1 /* UIButton+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E8B1210CD9C74B8E707EB2D8E9C57B3 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7062713628A296BEC28CF0E5C1B4AC56 /* UIImage+Category.m */; };
-		9F427F3EC652A84D33FC6DA763F5A81E /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 98594D6BE19577807247B51F568CD296 /* UITextField+Category.m */; };
+		9AE193544CFB7A8AD3F4AB3AD161F571 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75753820CB03D1A254F7439E29BAF9 /* UIImage+Category.m */; };
 		A1A0EAE2DF89FB1432AB2DBB0F15B37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A59AE168BCE4BBFE89D625EB66077073 /* UIImage+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = E768F32D06A36DF800C57FAB0A3101A9 /* UIImage+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC7E92130C82C2488CC861F030E8B185 /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA804A4E44BD3BB5F5DF969E2D5225E /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8571CBA7FE0BAEA6F04DE48869173FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C16FC2B8626C94B4EF8AF47D24F6DE36 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD29303AECB6DB5F91AEF1DB1F8E950 /* UITextView+Placeholder.m */; };
 		D1904B3F5CC3D438AA7AD65D5E6D6505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E66240BD899D0E8B8453D4476829E94B /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F6AAA210798F0803B8841C8A914D57 /* UITextView+Placeholder.m */; };
-		E783374B5053C6CBF9A43F87AFC3886E /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = A63BED024B39F461C03338BCE5034A96 /* UIButton+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0543775E903E9533DDB34A9323CE9DD /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EBA2AF4BA2F1A3031C41ECCC49D8DD /* UIButton+Category.m */; };
+		D8CE3E7F0E49AB20AB0388999A358132 /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABE771255CC1BC5BF02176BFD49C537 /* UIButton+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD91C99ECAD439DAA2023978FE30E10B /* UIButton+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB86B55C2F36E77BADA0C7F2CCD5104 /* UIButton+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B7FB5E0AFA9788788BA8150F83513B /* UILabel+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = CE17690D1ED1C38D0C503F0E79D32E6F /* UILabel+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BAC5562B62866EA37B8289CEEF27AE /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 188516E0E78A31D6FA04E19E1FCFE61C /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB99489400E525DAE0EA3B3DDEB485C7 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525CFC53FC50F9C89E46CC8B186C209 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDFA1E6BB346CF4937C3F662695AA01D /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = C21EA9E525AAF73E46125F103B1F1AC9 /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3257C7FAC4CA39819EB3E0AD0EBCC76 /* ZTComponentsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 74139D01D849FD99E4E79856A9F72115 /* ZTComponentsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,49 +52,52 @@
 
 /* Begin PBXFileReference section */
 		01D3884E6EFB3584309B0EECDA8797B4 /* Pods_ZTComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTComponents_Tests.framework; path = "Pods-ZTComponents_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		062291DCD69FC6F10B7C6355DC73513E /* ZTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTComponents-dummy.m"; sourceTree = "<group>"; };
-		0A55A45A3612F8F65B627DCD562A5596 /* ZTComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTComponents.release.xcconfig; sourceTree = "<group>"; };
+		0ABE771255CC1BC5BF02176BFD49C537 /* UIButton+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		106682F9C42065B2119041038806517B /* Pods-ZTComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		188516E0E78A31D6FA04E19E1FCFE61C /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		24229B16011EA8CA2E61A88A64BCB66C /* Pods-ZTComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
-		293C8296D1952673648C60839357E355 /* ZTComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTComponents-umbrella.h"; sourceTree = "<group>"; };
+		2525CFC53FC50F9C89E46CC8B186C209 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		2C7AD37CC4930277D30F12BBC326E661 /* Pods-ZTComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DB911550FACA122968407AA2AADB85D /* ZTComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTComponents-Info.plist"; sourceTree = "<group>"; };
+		2F0AD451E4744F360982875F93A29ABB /* ZTComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTComponents.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3244140907AF85557ED56A1B324373FC /* UIImage+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		324DFAA1CACA44152A544E568D590444 /* Pods-ZTComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTComponents_Example.modulemap"; sourceTree = "<group>"; };
+		3A703932E4706393BF59A0AF8B7F9DC2 /* UITextField+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
 		3F91D02DA0034DA9010E0B6DF836AA08 /* ZTComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZTComponents.framework; path = ZTComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4082B7A31F202888B50111E8C295E845 /* UILabel+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
 		471FD61AC2E4E1C15DC71E3C2A4D4209 /* Pods-ZTComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		4963017365D24A62BFF80DAA2A4DA19C /* UILabel+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Category.h"; path = "ZTComponents/Classes/UILabel+Category.h"; sourceTree = "<group>"; };
-		505F57976C070006CB0DC32B481F30B7 /* ZTComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4EF136376F7245F1C3CDD115E3C0D4F8 /* UIButton+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		53BC89A11D5FAE76984BF41FB68AB046 /* ZTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTComponents-dummy.m"; sourceTree = "<group>"; };
 		55EC107F6D918CFF04D1E532631D3D2D /* Pods-ZTComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7062713628A296BEC28CF0E5C1B4AC56 /* UIImage+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Category.m"; path = "ZTComponents/Classes/UIImage+Category.m"; sourceTree = "<group>"; };
+		74139D01D849FD99E4E79856A9F72115 /* ZTComponentsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZTComponentsMacros.h; sourceTree = "<group>"; };
 		77EE3F3EDF4F322D781DBEDB6C2B50F6 /* Pods-ZTComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79E3B0A6C54704677B18BAA511C533D4 /* ZTComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTComponents.release.xcconfig; sourceTree = "<group>"; };
 		7D8B53040AB62772CFFF8D98C804B662 /* Pods-ZTComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTComponents_Example-dummy.m"; sourceTree = "<group>"; };
-		7DA2814B86B77D21B0419A88793D5E5A /* UILabel+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Category.m"; path = "ZTComponents/Classes/UILabel+Category.m"; sourceTree = "<group>"; };
-		8469869E234C91647DA94A57B2F27313 /* UITextField+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Category.h"; path = "ZTComponents/Classes/UITextField+Category.h"; sourceTree = "<group>"; };
-		8CA804A4E44BD3BB5F5DF969E2D5225E /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Extension.h"; path = "ZTComponents/Classes/UILabel+Extension.h"; sourceTree = "<group>"; };
+		838420A7A20790F608A1E0BCEAF90DD1 /* ZTComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AFBCF51E21EAF747F69457A71EA54D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8D6EF77628A32A3BD0141DDDCDB856BA /* Pods-ZTComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9375DBABF48BDBE8F38A152423E1F678 /* ZTComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTComponents.modulemap; sourceTree = "<group>"; };
-		98594D6BE19577807247B51F568CD296 /* UITextField+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Category.m"; path = "ZTComponents/Classes/UITextField+Category.m"; sourceTree = "<group>"; };
+		8D75753820CB03D1A254F7439E29BAF9 /* UIImage+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D94D5AA00C2A10648D7CA713E00FA2D /* ZTComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTComponents-umbrella.h"; sourceTree = "<group>"; };
+		A3E25008011C7CFBE5A1E5DFDD75FD64 /* ZTComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTComponents.modulemap; sourceTree = "<group>"; };
 		A532418C12570340DF5A3588954DF3EE /* Pods-ZTComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A63BED024B39F461C03338BCE5034A96 /* UIButton+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extension.h"; path = "ZTComponents/Classes/UIButton+Extension.h"; sourceTree = "<group>"; };
-		AC483BDBC32CAE3F5E1FB824419CCAD1 /* UIButton+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Category.h"; path = "ZTComponents/Classes/UIButton+Category.h"; sourceTree = "<group>"; };
-		B156C136A92E11984EC517BCD15EA8A3 /* ZTComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTComponents.debug.xcconfig; sourceTree = "<group>"; };
+		ABD10063B2509821B707F57122B1162E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ACD29303AECB6DB5F91AEF1DB1F8E950 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		B26E2BD4927B950F7DFAD3BF7F6F3009 /* Pods-ZTComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTComponents_Tests-Info.plist"; sourceTree = "<group>"; };
 		B55EC743245BD472BD0815805838D4B9 /* Pods_ZTComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTComponents_Example.framework; path = "Pods-ZTComponents_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6924CC89449AA238E74194BA5FE0FE4 /* Pods-ZTComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTComponents_Example-Info.plist"; sourceTree = "<group>"; };
-		B6A3ECBE548D1450B91A254BC60CD9E9 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "ZTComponents/Classes/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		C21EA9E525AAF73E46125F103B1F1AC9 /* Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		C4C9662830999D97BC635E9474D6CDF5 /* Pods-ZTComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTComponents_Tests.modulemap"; sourceTree = "<group>"; };
 		CA066DE34BC0E5E21D9684F93ED052F1 /* Pods-ZTComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTComponents_Example-umbrella.h"; sourceTree = "<group>"; };
-		CEB0772C01B25F8889F7008DC248AA77 /* ZTComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTComponents-prefix.pch"; sourceTree = "<group>"; };
-		D1EBA2AF4BA2F1A3031C41ECCC49D8DD /* UIButton+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Category.m"; path = "ZTComponents/Classes/UIButton+Category.m"; sourceTree = "<group>"; };
-		D722F9E7C3A455E901A52E6CEFD2863B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E14637148600904CD0BC87AC75574F8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CE17690D1ED1C38D0C503F0E79D32E6F /* UILabel+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		DFB86B55C2F36E77BADA0C7F2CCD5104 /* UIButton+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
 		E34BB08CCB9C8CE62F4727C618665FB0 /* Pods-ZTComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3F6AAA210798F0803B8841C8A914D57 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "ZTComponents/Classes/UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		E4E8B6A9FBF1DCE8C298EC611D424962 /* Pods-ZTComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E768F32D06A36DF800C57FAB0A3101A9 /* UIImage+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Category.h"; path = "ZTComponents/Classes/UIImage+Category.h"; sourceTree = "<group>"; };
-		EB77ECC1412F0804113879E2DEFF1F30 /* ZTComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTComponents-Info.plist"; sourceTree = "<group>"; };
+		EE583A3839BE61C95114C5DCC5D5E8D1 /* ZTComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTComponents-prefix.pch"; sourceTree = "<group>"; };
+		F4537445E020CF7419139D72B3DDD9F7 /* UITextField+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
 		F6019463FCC14165421DA11244F034D9 /* Pods-ZTComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB354C7A97888D2E90EF0EFA782034CD /* ZTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZTCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11979BC20F702483FBF6C44921E108D /* Frameworks */ = {
+		389229CBF5A460ABC736259A73CE3676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8571CBA7FE0BAEA6F04DE48869173FF /* Foundation.framework in Frameworks */,
+				1B9E0099465782696E42BD925307CA8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,14 +128,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24C752B553066F55DD8CA2AEA3951705 /* Pod */ = {
+		0C4F1459C39BC0E8E4B9C96D3F57AB60 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D722F9E7C3A455E901A52E6CEFD2863B /* LICENSE */,
-				E14637148600904CD0BC87AC75574F8A /* README.md */,
-				505F57976C070006CB0DC32B481F30B7 /* ZTComponents.podspec */,
+				54676889ED911F8DF9EA25CA410F4B39 /* ZTComponents */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18500A6E25E9F7E55C9D5E2D0503EF06 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C21EA9E525AAF73E46125F103B1F1AC9 /* Singleton.h */,
+				FB354C7A97888D2E90EF0EFA782034CD /* ZTCommon.h */,
+				74139D01D849FD99E4E79856A9F72115 /* ZTComponentsMacros.h */,
+			);
+			name = Foundation;
+			path = ZTComponents/Classes/Foundation;
+			sourceTree = "<group>";
+		};
+		356C4E0F16398E3118D803806B0A38C4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DFB86B55C2F36E77BADA0C7F2CCD5104 /* UIButton+Category.h */,
+				4EF136376F7245F1C3CDD115E3C0D4F8 /* UIButton+Category.m */,
+				0ABE771255CC1BC5BF02176BFD49C537 /* UIButton+Extension.h */,
+				3244140907AF85557ED56A1B324373FC /* UIImage+Category.h */,
+				8D75753820CB03D1A254F7439E29BAF9 /* UIImage+Category.m */,
+				CE17690D1ED1C38D0C503F0E79D32E6F /* UILabel+Category.h */,
+				4082B7A31F202888B50111E8C295E845 /* UILabel+Category.m */,
+				188516E0E78A31D6FA04E19E1FCFE61C /* UILabel+Extension.h */,
+				3A703932E4706393BF59A0AF8B7F9DC2 /* UITextField+Category.h */,
+				F4537445E020CF7419139D72B3DDD9F7 /* UITextField+Category.m */,
+				2525CFC53FC50F9C89E46CC8B186C209 /* UITextView+Placeholder.h */,
+				ACD29303AECB6DB5F91AEF1DB1F8E950 /* UITextView+Placeholder.m */,
+			);
+			name = Category;
+			path = ZTComponents/Classes/Category;
 			sourceTree = "<group>";
 		};
 		48BB8B8F93884DAEDE543EE1C4D33B80 /* Products */ = {
@@ -142,19 +177,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5316E7FCFF824A3583D47951C6F140A0 /* Support Files */ = {
+		54676889ED911F8DF9EA25CA410F4B39 /* ZTComponents */ = {
 			isa = PBXGroup;
 			children = (
-				9375DBABF48BDBE8F38A152423E1F678 /* ZTComponents.modulemap */,
-				062291DCD69FC6F10B7C6355DC73513E /* ZTComponents-dummy.m */,
-				EB77ECC1412F0804113879E2DEFF1F30 /* ZTComponents-Info.plist */,
-				CEB0772C01B25F8889F7008DC248AA77 /* ZTComponents-prefix.pch */,
-				293C8296D1952673648C60839357E355 /* ZTComponents-umbrella.h */,
-				B156C136A92E11984EC517BCD15EA8A3 /* ZTComponents.debug.xcconfig */,
-				0A55A45A3612F8F65B627DCD562A5596 /* ZTComponents.release.xcconfig */,
+				356C4E0F16398E3118D803806B0A38C4 /* Category */,
+				18500A6E25E9F7E55C9D5E2D0503EF06 /* Foundation */,
+				BF4487A46E73CEAD9243C46232A1D8EA /* Pod */,
+				C7B7A9271B640E9AE31DB5C3E9F1357E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZTComponents";
+			name = ZTComponents;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5F2EC7943236CFA240CD9B715CC0F0EE /* Pods-ZTComponents_Tests */ = {
@@ -173,34 +205,14 @@
 			path = "Target Support Files/Pods-ZTComponents_Tests";
 			sourceTree = "<group>";
 		};
-		633071ED6D0E8FC4549AA78B2250BE24 /* Development Pods */ = {
+		BF4487A46E73CEAD9243C46232A1D8EA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B3F8E91E8FD2FFCBEADAAC3E4E95CCCA /* ZTComponents */,
+				8AFBCF51E21EAF747F69457A71EA54D7 /* LICENSE */,
+				ABD10063B2509821B707F57122B1162E /* README.md */,
+				838420A7A20790F608A1E0BCEAF90DD1 /* ZTComponents.podspec */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B3F8E91E8FD2FFCBEADAAC3E4E95CCCA /* ZTComponents */ = {
-			isa = PBXGroup;
-			children = (
-				AC483BDBC32CAE3F5E1FB824419CCAD1 /* UIButton+Category.h */,
-				D1EBA2AF4BA2F1A3031C41ECCC49D8DD /* UIButton+Category.m */,
-				A63BED024B39F461C03338BCE5034A96 /* UIButton+Extension.h */,
-				E768F32D06A36DF800C57FAB0A3101A9 /* UIImage+Category.h */,
-				7062713628A296BEC28CF0E5C1B4AC56 /* UIImage+Category.m */,
-				4963017365D24A62BFF80DAA2A4DA19C /* UILabel+Category.h */,
-				7DA2814B86B77D21B0419A88793D5E5A /* UILabel+Category.m */,
-				8CA804A4E44BD3BB5F5DF969E2D5225E /* UILabel+Extension.h */,
-				8469869E234C91647DA94A57B2F27313 /* UITextField+Category.h */,
-				98594D6BE19577807247B51F568CD296 /* UITextField+Category.m */,
-				B6A3ECBE548D1450B91A254BC60CD9E9 /* UITextView+Placeholder.h */,
-				E3F6AAA210798F0803B8841C8A914D57 /* UITextView+Placeholder.m */,
-				24C752B553066F55DD8CA2AEA3951705 /* Pod */,
-				5316E7FCFF824A3583D47951C6F140A0 /* Support Files */,
-			);
-			name = ZTComponents;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -209,6 +221,21 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7B7A9271B640E9AE31DB5C3E9F1357E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E25008011C7CFBE5A1E5DFDD75FD64 /* ZTComponents.modulemap */,
+				53BC89A11D5FAE76984BF41FB68AB046 /* ZTComponents-dummy.m */,
+				2DB911550FACA122968407AA2AADB85D /* ZTComponents-Info.plist */,
+				EE583A3839BE61C95114C5DCC5D5E8D1 /* ZTComponents-prefix.pch */,
+				9D94D5AA00C2A10648D7CA713E00FA2D /* ZTComponents-umbrella.h */,
+				2F0AD451E4744F360982875F93A29ABB /* ZTComponents.debug.xcconfig */,
+				79E3B0A6C54704677B18BAA511C533D4 /* ZTComponents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZTComponents";
 			sourceTree = "<group>";
 		};
 		C888AB1BE33154891D72EF5F601118CC /* Pods-ZTComponents_Example */ = {
@@ -232,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				633071ED6D0E8FC4549AA78B2250BE24 /* Development Pods */,
+				0C4F1459C39BC0E8E4B9C96D3F57AB60 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				48BB8B8F93884DAEDE543EE1C4D33B80 /* Products */,
 				FD1369167B8DF63989167181557A7300 /* Targets Support Files */,
@@ -267,21 +294,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A191272BBC572FD08C38670FC39F5BB5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88E0C6DAF7AEDD4E439BB2EE280F41EE /* UIButton+Category.h in Headers */,
-				E783374B5053C6CBF9A43F87AFC3886E /* UIButton+Extension.h in Headers */,
-				A59AE168BCE4BBFE89D625EB66077073 /* UIImage+Category.h in Headers */,
-				5E81567B716A0814A8A43FE6288F50D6 /* UILabel+Category.h in Headers */,
-				AC7E92130C82C2488CC861F030E8B185 /* UILabel+Extension.h in Headers */,
-				06061FEB104BDA2C748C77941134CC7D /* UITextField+Category.h in Headers */,
-				15EFF99829CACA4E6ED7300D09903565 /* UITextView+Placeholder.h in Headers */,
-				4CD0E3A5C76360CBD4368B6BA35F3381 /* ZTComponents-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EBEA0C2B1383C46D267819CA494CD1D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,17 +302,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F552288110FC8BC3994989D7E3D77670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA1E6BB346CF4937C3F662695AA01D /* Singleton.h in Headers */,
+				DD91C99ECAD439DAA2023978FE30E10B /* UIButton+Category.h in Headers */,
+				D8CE3E7F0E49AB20AB0388999A358132 /* UIButton+Extension.h in Headers */,
+				21F33EF27F209ED026D3B2FFE93A2BB9 /* UIImage+Category.h in Headers */,
+				E1B7FB5E0AFA9788788BA8150F83513B /* UILabel+Category.h in Headers */,
+				E2BAC5562B62866EA37B8289CEEF27AE /* UILabel+Extension.h in Headers */,
+				1B62321BC7EC7E620B60B6B07E8739DE /* UITextField+Category.h in Headers */,
+				EB99489400E525DAE0EA3B3DDEB485C7 /* UITextView+Placeholder.h in Headers */,
+				4860790B80069DA7FDC61B313047427F /* ZTCommon.h in Headers */,
+				734C00A5570E0010672AF5DDAEB7D193 /* ZTComponents-umbrella.h in Headers */,
+				F3257C7FAC4CA39819EB3E0AD0EBCC76 /* ZTComponentsMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		12266DD4C1DF9FC09CAD46FCA3194970 /* ZTComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD54CC1B51C2169DD015DADD1BF732B9 /* Build configuration list for PBXNativeTarget "ZTComponents" */;
+			buildConfigurationList = 19AC46EE13EA8455ACBCCCF92A9E2959 /* Build configuration list for PBXNativeTarget "ZTComponents" */;
 			buildPhases = (
-				A191272BBC572FD08C38670FC39F5BB5 /* Headers */,
-				07CB1A9BC720B09915763C62CC2EB361 /* Sources */,
-				D11979BC20F702483FBF6C44921E108D /* Frameworks */,
-				FB70A8127DC5505223C0EF459924EE05 /* Resources */,
+				F552288110FC8BC3994989D7E3D77670 /* Headers */,
+				D87978EE62290FF6F2EEE2E1D13697EB /* Sources */,
+				389229CBF5A460ABC736259A73CE3676 /* Frameworks */,
+				4B264CDD5D1B195D561B879D1ABBDEC5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -386,7 +416,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB70A8127DC5505223C0EF459924EE05 /* Resources */ = {
+		4B264CDD5D1B195D561B879D1ABBDEC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,19 +433,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07CB1A9BC720B09915763C62CC2EB361 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0543775E903E9533DDB34A9323CE9DD /* UIButton+Category.m in Sources */,
-				8E8B1210CD9C74B8E707EB2D8E9C57B3 /* UIImage+Category.m in Sources */,
-				6388F705D89B7F4C70A5F8F9AEF80123 /* UILabel+Category.m in Sources */,
-				9F427F3EC652A84D33FC6DA763F5A81E /* UITextField+Category.m in Sources */,
-				E66240BD899D0E8B8453D4476829E94B /* UITextView+Placeholder.m in Sources */,
-				67129B6B85F0A9286967549AB340E9F0 /* ZTComponents-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4110D5E3E8B6499CB2D474588C20BF86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +446,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B28FB473575F7C21A774134E3A7AF4E /* Pods-ZTComponents_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87978EE62290FF6F2EEE2E1D13697EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84669E0ECE8A169E7A58AA11139860CD /* UIButton+Category.m in Sources */,
+				9AE193544CFB7A8AD3F4AB3AD161F571 /* UIImage+Category.m in Sources */,
+				35CE6AAA1D25D17A8F255BB9C7AC5F33 /* UILabel+Category.m in Sources */,
+				2FF11D200CC50ABFAE49A17E31562E86 /* UITextField+Category.m in Sources */,
+				C16FC2B8626C94B4EF8AF47D24F6DE36 /* UITextView+Placeholder.m in Sources */,
+				551EC4D6A074F719CD6EF952422CC409 /* ZTComponents-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,38 +512,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		29E4BDBD7E75C8B67B7A6121994F77F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A55A45A3612F8F65B627DCD562A5596 /* ZTComponents.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZTComponents/ZTComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZTComponents/ZTComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZTComponents/ZTComponents.modulemap";
-				PRODUCT_MODULE_NAME = ZTComponents;
-				PRODUCT_NAME = ZTComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,6 +572,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		5F2A7C8643A89D88A11795FCBB99D1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0AD451E4744F360982875F93A29ABB /* ZTComponents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTComponents/ZTComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTComponents/ZTComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTComponents/ZTComponents.modulemap";
+				PRODUCT_MODULE_NAME = ZTComponents;
+				PRODUCT_NAME = ZTComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6786C9E2FFF3FE34376F412BF2388D4B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -740,9 +769,9 @@
 			};
 			name = Debug;
 		};
-		F93815F8ACFC8AC3FC692E7F89987809 /* Debug */ = {
+		FD54E43DC688B4F5BCCF47491A4DA9E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B156C136A92E11984EC517BCD15EA8A3 /* ZTComponents.debug.xcconfig */;
+			baseConfigurationReference = 79E3B0A6C54704677B18BAA511C533D4 /* ZTComponents.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -766,14 +795,24 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19AC46EE13EA8455ACBCCCF92A9E2959 /* Build configuration list for PBXNativeTarget "ZTComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2A7C8643A89D88A11795FCBB99D1F6 /* Debug */,
+				FD54E43DC688B4F5BCCF47491A4DA9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -797,15 +836,6 @@
 			buildConfigurations = (
 				B8E2D9D68F017E44DDD0E4AC180AE000 /* Debug */,
 				6786C9E2FFF3FE34376F412BF2388D4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD54CC1B51C2169DD015DADD1BF732B9 /* Build configuration list for PBXNativeTarget "ZTComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F93815F8ACFC8AC3FC692E7F89987809 /* Debug */,
-				29E4BDBD7E75C8B67B7A6121994F77F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

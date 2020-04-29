@@ -1,5 +1,10 @@
 PODS:
-  - ZTComponents (1.0.1)
+  - ZTComponents (1.0.3):
+    - ZTComponents/Category (= 1.0.3)
+    - ZTComponents/Foundation (= 1.0.3)
+  - ZTComponents/Category (1.0.3):
+    - ZTComponents/Foundation
+  - ZTComponents/Foundation (1.0.3)
 
 DEPENDENCIES:
   - ZTComponents (from `../`)
@@ -9,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZTComponents: f0d1772e3e32bcdaedd30b7130d6a9ccb1b3f0f6
+  ZTComponents: 02b7e33fbf2e4b2fb2306a0bc07b9359001c41e0
 
 PODFILE CHECKSUM: fca1a4e558caa8cf9cbfd1162477681bd4dc66db
 

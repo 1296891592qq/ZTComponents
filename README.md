@@ -21,9 +21,9 @@ pod 'ZTComponents', '~> 1.0.0'
 ```
 
 *  手动导入：
-    > 拖动文件ZTComponents夹中的所有文件至你的项目中
-    > 导入主文件：#import "ZTComponents.h"
-    
+  ``` 拖动文件ZTComponents夹中的所有文件至你的项目中
+    > 导入主文件：#import "ZTComponentsMacros.h"
+```
     
 ## 后续优化
 > 后续会对其他组件进行相应的修改和完善，主要包含以下几点：
@@ -40,22 +40,15 @@ pod 'ZTComponents', '~> 1.0.0'
 > ...
 
 
+
 ## Author
 
 iPackage
 
 
 ## 期待
-### 大家如果喜欢，请给个star,再次深表感谢！！！  
 
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
+### 大家如果喜欢，请给个star,在此深表感谢！！！  
 
 
 ## License
