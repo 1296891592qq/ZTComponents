@@ -17,7 +17,7 @@
 ## 如何使用
 *  使用CocoaPods进行安装：
 ```ruby
-pod 'ZTComponents', '~> 1.0.0'
+pod 'ZTComponents', '~> 1.0.4'
 ```
 
 *  手动导入：

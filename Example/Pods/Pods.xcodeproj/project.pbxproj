@@ -573,37 +573,6 @@
 			};
 			name = Release;
 		};
-		5F2A7C8643A89D88A11795FCBB99D1F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F0AD451E4744F360982875F93A29ABB /* ZTComponents.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZTComponents/ZTComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZTComponents/ZTComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZTComponents/ZTComponents.modulemap";
-				PRODUCT_MODULE_NAME = ZTComponents;
-				PRODUCT_NAME = ZTComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6786C9E2FFF3FE34376F412BF2388D4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24229B16011EA8CA2E61A88A64BCB66C /* Pods-ZTComponents_Example.release.xcconfig */;
@@ -769,7 +738,38 @@
 			};
 			name = Debug;
 		};
-		FD54E43DC688B4F5BCCF47491A4DA9E5 /* Release */ = {
+		CFA3B3DD6ED15B381F8722A0DADB63C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0AD451E4744F360982875F93A29ABB /* ZTComponents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTComponents/ZTComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTComponents/ZTComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTComponents/ZTComponents.modulemap";
+				PRODUCT_MODULE_NAME = ZTComponents;
+				PRODUCT_NAME = ZTComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D97703050843502D1D40929469A873ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79E3B0A6C54704677B18BAA511C533D4 /* ZTComponents.release.xcconfig */;
 			buildSettings = {
@@ -785,7 +785,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ZTComponents/ZTComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ZTComponents/ZTComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZTComponents/ZTComponents.modulemap";
 				PRODUCT_MODULE_NAME = ZTComponents;
@@ -807,8 +807,8 @@
 		19AC46EE13EA8455ACBCCCF92A9E2959 /* Build configuration list for PBXNativeTarget "ZTComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2A7C8643A89D88A11795FCBB99D1F6 /* Debug */,
-				FD54E43DC688B4F5BCCF47491A4DA9E5 /* Release */,
+				CFA3B3DD6ED15B381F8722A0DADB63C8 /* Debug */,
+				D97703050843502D1D40929469A873ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
