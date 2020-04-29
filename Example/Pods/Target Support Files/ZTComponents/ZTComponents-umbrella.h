@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "UIButton+Category.h"
+#import "UIButton+Extension.h"
+#import "UIImage+Category.h"
+#import "UILabel+Category.h"
+#import "UILabel+Extension.h"
+#import "UITextField+Category.h"
+#import "UITextView+Placeholder.h"
 
 FOUNDATION_EXPORT double ZTComponentsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZTComponentsVersionString[];
