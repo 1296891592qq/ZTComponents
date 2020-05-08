@@ -10,6 +10,10 @@
 
 @implementation UITextView (Placeholder)
 
+/// 利用runtime对textView添加placeholder属性
+/// @param placeholder placeholder
+/// @param color placeholder color
+/// @param font placeholder color
 - (void)setPlaceholder:(NSString *)placeholder placeColor:(UIColor *)color font:(CGFloat)font {
     
     UILabel *placeHolderLabel = [[UILabel alloc] init];
@@ -24,6 +28,8 @@
     [self setValue:placeHolderLabel forKey:@"_placeholderLabel"];
 }
 
+/// 利用通知对textView进行字数限制 [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(textViewEditChanged:) name:@"UITextViewTextDidChangeNotification" object:self];
+/// @param maxlength 最大字数
 - (void)setMaxlength:(int)maxlength {
     //获取正在输入的textView
     NSString *toBeString = self.text;

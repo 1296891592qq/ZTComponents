@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTComponents'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '对原生组件进行扩展'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZTComponents/Classes/**/*'
+#  s.source_files = 'ZTComponents/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ZTComponents' => ['ZTComponents/Assets/*.png']
